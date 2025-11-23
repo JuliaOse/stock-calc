@@ -69,7 +69,7 @@ Clean, interactive frontend built with **Streamlit** for easy exploration of you
 
 1. Clone the repository:  
    ```bash
-   git clone [<repo-url>](https://github.com/JuliaOse/stock-calc.git)
+   git clone [(https://github.com/JuliaOse/stock-calc.git)](https://github.com/JuliaOse/stock-calc.git)
 
 2. Install the requirements
 
