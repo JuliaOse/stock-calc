@@ -1,63 +1,84 @@
-🎒 MissedTheBag
-See how much money you could have made… if you didn’t miss the bag.
+# 🎒 MissedTheBag
 
-Live Demo: https://missedthebag.streamlit.app
+See how much money you could have made… if you didn’t miss the bag.  
 
-🚀 Overview
+**Live Demo:** [https://missedthebag.streamlit.app](https://missedthebag.streamlit.app)
 
-MissedTheBag is a simple but powerful stock investment calculator that shows you:
+---
 
-✔️ How much your money would be worth today if you invested on a specific past date
-✔️ The exact number of shares you would’ve bought
-✔️ Your current profit/loss
-✔️ Historical stock price chart
-✔️ Historical investment value chart
+## 🚀 Overview
 
-Built with Python, Streamlit, and yfinance — it transforms market regret into clear insights.
+**MissedTheBag** is a simple yet powerful stock investment calculator that lets you:
 
-✨ Features
-📈 Investment Value Simulation
+- See how much your money would be worth today if you had invested on a specific past date.  
+- Find out the exact number of shares you would have bought.  
+- Check your current profit or loss.  
+- View historical stock price charts.  
+- Track historical investment value over time.  
 
-Enter:
+Built with **Python**, **Streamlit**, and **yfinance**, it turns market regret into clear, actionable insights.
 
-Stock symbol (AAPL, TSLA, etc.)
+---
 
-Amount invested
+## ✨ Features
 
-Historical date
-→ See the real performance up to today.
+### 📈 Investment Value Simulation
 
-🧮 Accurate Trading-Day Adjustment
+Simply enter:
 
-If your chosen date is a weekend or market holiday, MissedTheBag automatically finds the next valid trading day.
+- **Stock symbol** (e.g., AAPL, TSLA)  
+- **Amount invested**  
+- **Historical date**  
 
-📊 Beautiful Charts
+MissedTheBag calculates the real performance of your investment up to today.
 
-Stock price history
+### 🧮 Accurate Trading-Day Adjustment
 
-Investment growth graph
-Both rendered dynamically using Streamlit and Matplotlib.
+If your chosen date falls on a weekend or market holiday, MissedTheBag automatically selects the next valid trading day.
 
-⚡ API-accurate Data
+### 📊 Beautiful Charts
 
-Powered by yfinance, fetching real historical and current market prices.
+- Historical stock price chart  
+- Investment growth chart  
 
-🖥️ Modern UI
+Both charts are rendered dynamically using **Streamlit** and **Matplotlib**.
 
-Clean, interactive frontend built with Streamlit.
+### ⚡ API-Accurate Data
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	Streamlit
-Backend	Python
-Data Source	yfinance
-Charts	Matplotlib
-Environment	Virtualenv / pip
-📦 Installation
+Powered by **yfinance**, fetching real historical and current market prices for precise calculations.
+
+### 🖥️ Modern UI
+
+Clean, interactive frontend built with **Streamlit** for easy exploration of your hypothetical investments.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer      | Technology      |
+|-----------|----------------|
+| Frontend  | Streamlit       |
+| Backend   | Python          |
+| Data      | yfinance        |
+| Charts    | Matplotlib      |
+| Environment | Virtualenv / pip |
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone <repo-url>
+
+2. Install the requirements
+
+3. Run the app
+    ```bash
+    streamlit run app.py
 
 
-
-🧪 Example Usage
+##  Example Usage
 
 Enter:
 
@@ -84,12 +105,10 @@ Total profit
 Growth charts
 
 
-
-🌍 Deployment
+## 🌍 Deployment
 
 MissedTheBag is deployed on Streamlit Community Cloud, making it accessible to everyone.
 
 
-
-👩🏽‍💻 Julia Osei
+## 👩🏽‍💻 Julia Osei
 Built with love, Python, and some prompting.
